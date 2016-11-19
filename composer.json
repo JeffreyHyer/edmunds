@@ -1,0 +1,29 @@
+{
+    "name": "jeffreyhyer/edmunds",
+    "description": "Edmunds Vehicle API",
+    "keywords": ["edmunds", "vehicle", "api"],
+    "license": "MIT",
+    "homepage": "https://github.com/jeffreyhyer/edmunds",
+    "support": {
+        "issues": "https://github.com/jeffreyhyer/edmunds/issues",
+        "source": "https://github.com/jeffreyhyer/edmunds"
+    },
+    "authors": [
+        {
+            "name": "Jeffrey Hyer",
+            "email": "github-edmunds@jeffreyhyer.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Edmunds\\": "src/"
+        }
+    }
+}
